@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.omar{
+    height: 800px;
+    width: 800px;
+    background: teal;
+    margin: 0 auto;
+    position: relative;
+}
+.one{
+    height: 200px;
+    width: 200px;
+    background: rgb(147, 11, 11);
+    position: absolute;
+  
+
+
+}
+.two{
+    background:red;
+    left: 25px;
+    top: 25px;
+}
+
+ 
+.three{
+    background: blue;
+    left: 50px;
+    top: 50px;
+    z-index: 67;
+}
+.four{
+    background: yellow;
+    left: 75px;
+    top: 75px;
+}
+.five{
+    background: green;
+    left: 100px;
+    top: 100px;
+}
+
+ 
+
+.border{
+    background: url(../images/beauty\ of\ bangladesh);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ padding: 300px 0;
+}
+.overly img{
+    width: 100px;
+    height: 100px;
+  
+
+}
+
+    /* complete the about page with the above css and the image of beauty of bangladesh */
+    
+
+ul,ol{
+    list-style-type: none;
+    
+}
+.headerpart{
+    /* height: 100px; */
+    background: rgb(211, 221, 221);
+}
+
+.menuwithlogo{
+    /* height: 100px; */
+    background: rgb(0, 179, 255);
+    width: 1420px;
+    margin: 0 auto;
+}
+.menuwithlogo ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuwithlogo ul li{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+
+}
+.menuwithlogo ul li a {
+    color: white;
+    font-size: 20px;
+    transition: all linear 0.73s;
+}
+.menuwithlogo ul li a:hover{
+    color: black;
+}
+
+ 
